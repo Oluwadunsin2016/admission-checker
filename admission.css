@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px 0px;
+    /* background-color: purple; */
+    background: linear-gradient(purple, green, orange);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.cent {
+    padding-top: 20px;
+    height: 92.3vh;
+    background: url(/images/SU-advert-2020.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset {
+    /* margin-top: 40px; */
+    padding: 20px;
+    /* background-image: url(/images/admission.jpg); */
+    background-color: rgba(206, 199, 199, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 5px 10px black;
+    border: none;
+}
+
+legend {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+select,
+input {
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    outline: none;
+    border: thin solid grey;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+
+select:hover {
+    background-color: rgba(206, 199, 199, 0.5);
+}
+
+select {
+    cursor: pointer;
+}
+
+.score {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+}
+
+button:active {
+    background-color: rgb(54, 240, 54);
+}

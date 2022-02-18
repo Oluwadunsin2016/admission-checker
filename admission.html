@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admission.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <marquee behavior="" direction="right">You are welcome to Admission Status checker, kindly check your admission eligibility</marquee>
+    </nav>
+    <center class="cent">
+        <fieldset align="center" style="width: 50%; ">
+            <legend>ADMISSION STATUS</legend>
+
+            <label for="" 1>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">ENGLISH LANGUAGE</option>
+                    <option value="">MATHEMATICS</option>
+                    <option value="">GOVERNMENT</option>
+                    <option value="">LITERATURE IN ENGLISH</option>
+                    <option value="">CRS</option>
+                </select>
+            </label>
+            <input type="number" name="" id="score1" placeholder="Enter your score"><br><br>
+
+
+            <label for="" 2>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">ENGLISH LANGUAGE</option>
+                    <option value="">MATHEMATICS</option>
+                    <option value="">GOVERNMENT</option>
+                    <option value="">LITERATURE IN ENGLISH</option>
+                    <option value="">CRS</option>
+                </select>
+            </label>
+            <input type="number" name="" id="score2" placeholder="Enter your score"><br><br>
+
+
+            <label for="" 3>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">ENGLISH LANGUAGE</option>
+                    <option value="">MATHEMATICS</option>
+                    <option value="">GOVERNMENT</option>
+                    <option value="">LITERATURE IN ENGLISH</option>
+                    <option value="">CRS</option>
+                </select>
+            </label>
+            <input type="number" name="" id="score3" placeholder="Enter your score"><br><br>
+
+
+            <label for="" 4>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">ENGLISH LANGUAGE</option>
+                    <option value="">MATHEMATICS</option>
+                    <option value="">GOVERNMENT</option>
+                    <option value="">LITERATURE IN ENGLISH</option>
+                    <option value="">CRS</option>
+                </select>
+            </label>
+            <input type="number" name="" id="score4" placeholder="Enter your score"><br><br>
+
+
+            <label for="" 5>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">ENGLISH LANGUAGE</option>
+                    <option value="">MATHEMATICS</option>
+                    <option value="">GOVERNMENT</option>
+                    <option value="">LITERATURE IN ENGLISH</option>
+                    <option value="">CRS</option>
+                </select>
+            </label>
+            <input type="number" name="" id="score5" placeholder="Enter your score"><br><br>
+
+            <label for="" class="score">JAMB SCORE</label>
+            <input type="number" name="" id="jscore" placeholder="Enter your UTME score"><br><br>
+
+            <button onclick="check()"><a href="flight.html"></a>CHECK</button>
+        </fieldset>
+    </center>
+
+
+
+
+    <script>
+        function check() {
+            if (score1.value >= 50 && score2.value >= 50 && score3.value >= 50 && score4.value >= 50 && score5.value >= 50 && jscore.value >= 200) {
+                alert("Congratulations! You meet the requirements for admission");
+                // result.innerHTML = "Congratulations! You meet the requirements for admission";
+            } else {
+                alert("Sorry! You don't meet the requirements for admission");
+                // result.innerHTML = "Sorry! You don't meet the requirements for admission";
+            }
+        }
+    </script>
+</body>
+
+</html>
